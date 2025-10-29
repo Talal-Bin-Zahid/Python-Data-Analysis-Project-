@@ -79,8 +79,6 @@ The dataset contains information about diamonds with the following characteristi
 
 ### Dataset Structure
 
-![Data Info](./figures/data_info.png)
-
 ### Key Findings
 
 - Total Records: 53,940 diamonds
@@ -92,21 +90,14 @@ The dataset contains information about diamonds with the following characteristi
 
 ### Numerical Variables
 
-![Price Distribution](./figures/price_dist.png)
-
 - Price Distribution Analysis
 - Skewness: 1.62 (right-skewed)
 - Kurtosis: 2.73 (leptokurtic)
-
-![Carat Distribution](./figures/carat_dist.png)
-
 - Carat Weight Analysis
 - Central Tendency: 0.797 carats average
 - Range: 0.2 to 5.01 carats
 
 ### Categorical Variables
-
-![Cut Distribution](./figures/cut_dist.png)
 
 - Cut Quality Distribution
 - Most Common: Ideal cut (40% of samples)
@@ -116,14 +107,10 @@ The dataset contains information about diamonds with the following characteristi
 
 ### Price by Cut Quality
 
-![Price by Cut](./figures/price_by_cut.png)
-
 - ANOVA Results: F-stat = 324.56, p-value < 0.001
 - Interpretation: Significant price variation across cut qualities
 
 ### Price by Clarity
-
-![Price by Clarity](./figures/price_by_clarity.png)
 
 - Relationship Analysis
 - Key Differences: Higher clarity grades command premium prices
@@ -132,14 +119,11 @@ The dataset contains information about diamonds with the following characteristi
 
 ### Correlation Matrix
 
-![Correlation Matrix](./figures/correlation_matrix.png)
-
 ### Key Relationships
 
 1. Price vs Carat:
    - Correlation: 0.92 (very strong positive)
    - R-squared: 0.85 (85% of price variance explained by carat)
-   ![Price vs Carat](./figures/price_carat_scatter.png)
 
 2. Depth vs Width:
    - Correlation: 0.65
